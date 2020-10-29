@@ -11,4 +11,6 @@ A personal blog system made by VueJS.
 
 ```
 deploy and Settings repositories choose folder /docs
-![alt](http://https://github.com/imod668/blog/screen.jpg)
+
+
+![alt](http://https://github.com/imod668/blog/blob/master/screen.jpg)
