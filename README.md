@@ -1,6 +1,6 @@
 # Blog markdown vuejs
 A personal blog system made by VueJS.
-## Demo [https://imod668.github.io/blog/](https://imod668.github.io/blog/#/?target=_blank)
+## Demo [https://imod668.github.io/blog/](https://imod668.github.io/blog/#/){:target="_blank"}
 # Take a try!
 ```
 1. git clone https://github.com/jrainlau/vonut.git
