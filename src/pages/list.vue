@@ -43,7 +43,7 @@ export default {
 
 .list-enter-active,
 .list-leave-active {
-  transition: all, .5s;
+  transition: all, .3s;
 }
 .list-enter,
 .list-leave-to {
@@ -61,17 +61,17 @@ export default {
   user-select: none;
   &-wrapper {
     margin-top: 10px;
-    padding: 0 10px;
+    padding: 0 20px;
     list-style: none;
     li {
       background: #fff;
-      margin-bottom: 15px;
+      margin-bottom: 2rem;
       border-radius: 4px;
       overflow: hidden;
-      box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
+      box-shadow: 0 3px 12px rgba(0, 0, 0, .2);
       transition: @transition;
       &:hover {
-        box-shadow: 0 6px 15px rgba(0, 0, 0, .2);
+        transform: scale(0.98);
       }
       &:active {
         box-shadow: 0 9px 15px rgba(0, 0, 0, .3);
@@ -127,7 +127,7 @@ export default {
       }
       .info {
         padding: 15px;
-        font-size: 12px;
+        font-size: 14px;
         color: #9E9E9E;
         display: flex;
         justify-content: space-between;

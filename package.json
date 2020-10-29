@@ -1,8 +1,8 @@
 {
-  "name": "vonut",
+  "name": "Blog",
   "version": "1.0.0",
   "description": "Personal blog system made by Vue.js",
-  "author": "JrainLau <jrainlau@163.com>",
+  "author": "Mrthuan <thuanvodka@gmail.com>",
   "main": "dist/index.js",
   "scripts": {
     "dev": "node_modules/.bin/webpack-dev-server --config webpack/dev.js --open",

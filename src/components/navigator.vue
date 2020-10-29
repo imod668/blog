@@ -1,7 +1,7 @@
 <template>
   <nav class="nav" :class="{'hide': !showNav}">
-    <h3>Vonut</h3>
-    <i @click="githubLink" class="fa fa-github"></i>
+    <a href="index.html">Thuan's Blog</a>
+    <a href="#" @click="twitterLink" target="_blank"><i class="fab fa-twitter"></i></a>
   </nav>
 </template>
 
@@ -11,8 +11,8 @@ export default {
     'showNav'
   ],
   methods: {
-    githubLink () {
-      window.location.href = 'https://github.com/jrainlau/vonut'
+    twitterLink () {
+      window.open('https://twitter.com/th6688')
     }
   }
 }
@@ -20,17 +20,16 @@ export default {
 
 <style lang="less">
 .nav {
-  position: absolute;
+  position: fixed;
   top: 0;
-  height: 40px;
-  line-height: 40px;
+  height: 50px;
   width: 100%;
-  background: #5E35B1;
+  background: #42b983;
   padding: 0 15px;
   box-sizing: border-box;
   color: #fff;
   z-index: 9000;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .2);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +37,15 @@ export default {
   h3 {
     margin: 0;
   }
-  .fa {
+  a{
+	margin-right: 20px;
+	color:#fff;
+	text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+	line-height: 1px;
+  }
+  .fab {
     font-size: 24px;
   }
   &.hide {

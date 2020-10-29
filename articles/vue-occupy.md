@@ -35,10 +35,10 @@ Now `vue-occupy` is a global Vue directive, you can use `v-occupy` in every `.vu
 
 # Params
 
-| param | type | description | necessary |
+| param | type | description |
 | --- | --- | --- | --- |
-| data | {Object} | the data you bind to the node | Yes |
-| config | {Object} | the color lump's css config | No |
+| data | {Object} | the data you bind to the node |
+| config | {Object} | the color lump's css config |
 
 For example:
 

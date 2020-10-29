@@ -63,23 +63,24 @@ export default {
 
 .tags {
   position: fixed;
-  right: 2vw;
+  right: 20px;
   bottom: 100px;
   z-index: 9999;
   .tags-wrapper {
     position: relative;
-    min-width: 120px;
+    min-width: 110px;
     &-list {
       margin: 0;
       padding: 0;
       position: relative;
-      bottom: 15px;
+      bottom: 70px;
       list-style: none;
       &-item {
         width: 80px;
         padding: 5px 15px;
         margin-bottom: 5px;
-        background: #fff;
+        background: #2abd87;
+		color: #ffffff;
         box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
         transition: @transition;
         cursor: default;
@@ -95,18 +96,18 @@ export default {
       }
     }
     &-btn {
-      background: #E53935;
+      background: #42b983;
       border: none;
-      width: 60px;
-      height: 60px;
+      width: 50px;
+      height: 50px;
       padding: 0;
-      border-radius: 60px;
+      border-radius: 15px;
       text-align: center;
       outline: none;
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      bottom: -55px;
+      bottom: 10px;
       box-shadow: 2px 3px 12px rgba(0, 0, 0, .1);
       transition: @transition;
       color: #fff;
