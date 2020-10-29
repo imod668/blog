@@ -10,7 +10,7 @@ A personal blog system made by VueJS.
 5. yarn run build
 
 ```
-##deploy and Settings repositories choose folder /docs
+## deploy and Settings repositories choose folder /docs
 
 
 ![alt](https://github.com/imod668/blog/blob/master/screen.jpg)
